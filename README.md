@@ -6,7 +6,7 @@
 
 *Tirana, Albania · Building things, testing assumptions, writing down what I learn.*
 
-[Explore my field notebook](https://egigj-dev.github.io/egigj-dev/) · [Repositories](https://github.com/egigj-dev?tab=repositories)
+[Explore my field notebook](https://egigj-dev.github.io) · [Repositories](https://github.com/egigj-dev?tab=repositories)
 
 </div>
 
@@ -39,7 +39,7 @@ I care about good problem definitions, sensible metrics, understanding failure m
 
 <div align="center">
 
-**[Visit the more personal side →](https://egigj-dev.github.io/egigj-dev/)**
+**[Visit the more personal side →](https://egigj-dev.github.io)**
 
 <sub>Less of a scoreboard, more of a working notebook.</sub>
 
