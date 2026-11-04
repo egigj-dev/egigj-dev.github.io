@@ -22,10 +22,10 @@ My interests move between **NLP and retrieval**, **recommendation and predictive
 
 | Project | What it's about |
 | :-- | :-- |
-| [TiranaTips](https://github.com/egigj-dev/TiranaTips) | Experimenting with a multilingual RAG-powered guide to Tirana. |
-| [real-estate](https://github.com/egigj-dev/real-estate) | Exploring ML-based property-price estimation. |
-| [my-blog](https://github.com/egigj-dev/my-blog) | Unpacking deep learning fundamentals through writing. |
-| [notebooks](https://github.com/egigj-dev/notebooks) | Experiments, analysis, and ideas in progress. |
+| [TiranaTips](https://github.com/egigj-dev/TiranaTips) | A multilingual guide to Tirana that explores retrieval-augmented generation (RAG) for city information. |
+| [real-estate](https://github.com/egigj-dev/real-estate) | A property-listing app for Tirana, using XGBoost price estimates and comparable listings to help put asking prices in context. A FastAPI backend serves the application. |
+| [my-blog](https://github.com/egigj-dev/my-blog) | Writing that unpacks deep learning fundamentals, using explanations to make the ideas behind models easier to understand. |
+| [notebooks](https://github.com/egigj-dev/notebooks) | Jupyter notebooks for exploring data and testing ideas through small experiments, analyses, and prototypes. |
 
 ### How I approach the work
 
@@ -44,3 +44,18 @@ I care about good problem definitions, sensible metrics, understanding failure m
 <sub>Less of a scoreboard, more of a working notebook.</sub>
 
 </div>
+
+
+### Portfolio content maintenance
+
+The portfolio links to project source repositories. The `my-blog` card is the ML-writing repository; a separate published blog URL has not been verified.
+
+The real-estate summary is supported by its [repository README](https://github.com/egigj-dev/real-estate#readme), which documents the Tirana listing app, XGBoost, FastAPI, price estimates, and comparable listings. The other summaries retain the scope described in this portfolio and README; their external repositories could not be retrieved during this content review.
+
+Before adding more detailed claims, verify:
+
+- **TiranaTips:** implemented retrieval workflow, supported languages, and evaluation evidence.
+- **real-estate:** evaluation dataset, split, baseline, and measured prediction errors before publishing performance claims.
+- **my-blog:** published reading URL and article titles or permalinks.
+- **notebooks:** specific notebook paths, questions explored, methods, and documented findings.
+- **All projects:** personal contribution and collaborators, plus a documented project status before adding role or maturity labels.

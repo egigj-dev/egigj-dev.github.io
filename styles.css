@@ -36,7 +36,7 @@ a { color: inherit; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 ::selection { background: var(--accent); color: var(--bg); }
 .container { max-width: var(--max); margin-inline: auto; padding-inline: var(--gutter); }
-main, .section { scroll-margin-top: 24px; }
+main, .section, #ml-writing { scroll-margin-top: 24px; }
 
 /* Navigation and keyboard entry */
 .skip-link {
@@ -172,8 +172,21 @@ nav a:focus-visible, .brand:focus-visible { color: var(--accent); }
 .project p { font-size: 15px; color: var(--muted); margin: 0 0 24px; max-width: 46ch; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
 .tags span { font: 11px/1.5 var(--mono); color: #bcd1c5; background: #243932; padding: 6px 9px; }
-.project-link { position: absolute; inset: 0; z-index: 2; }
-.project-link:focus-visible { outline: 3px solid var(--accent); outline-offset: -5px; }
+/* Keep one accessible link per card while making its destination visible. */
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  min-height: 44px;
+  margin-top: 16px;
+  padding-block: 10px;
+  color: var(--accent);
+  font: 12px/1.6 var(--mono);
+  text-underline-offset: 4px;
+}
+.project-link::after { content: ''; position: absolute; inset: 0; z-index: 2; }
+.project-link:focus-visible { outline: none; }
+.project-link:focus-visible::after { outline: 3px solid var(--accent); outline-offset: -5px; }
 .project a:not(.project-link) { position: relative; z-index: 3; }
 
 /* Approach, topic index, and colophon */
