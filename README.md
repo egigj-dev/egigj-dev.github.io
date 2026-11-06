@@ -6,7 +6,7 @@
 
 *Tirana, Albania · Building things, testing assumptions, writing down what I learn.*
 
-[Explore my field notebook](https://egigj-dev.github.io) · [Repositories](https://github.com/egigj-dev?tab=repositories)
+[Explore my field notebook](https://egigj-dev.github.io) · [ML blog](https://egigj-dev.github.io/my-blog/) · [Repositories](https://github.com/egigj-dev?tab=repositories)
 
 </div>
 
@@ -22,10 +22,11 @@ My interests move between **NLP and retrieval**, **recommendation and predictive
 
 | Project | What it's about |
 | :-- | :-- |
-| [TiranaTips](https://github.com/egigj-dev/TiranaTips) | Experimenting with a multilingual RAG-powered guide to Tirana. |
-| [real-estate](https://github.com/egigj-dev/real-estate) | Exploring ML-based property-price estimation. |
-| [my-blog](https://github.com/egigj-dev/my-blog) | Unpacking deep learning fundamentals through writing. |
-| [notebooks](https://github.com/egigj-dev/notebooks) | Experiments, analysis, and ideas in progress. |
+| [albanian-banking-assistant](https://github.com/egigj-dev/albanian-banking-assistant) | An Albanian-language assistant for banking regulations and bank rates. Rates come from structured tables, and every generated sentence is checked against its sources. |
+| [TiranaTips](https://github.com/egigj-dev/TiranaTips) | A multilingual guide to Tirana: hybrid search over Qdrant, cross-encoder reranking, and streamed answers from a FastAPI app. Built with collaborators. |
+| [real-estate](https://github.com/egigj-dev/real-estate) | A property-listing app for Tirana, using XGBoost price estimates and comparable listings to help put asking prices in context. Built with collaborators; my commits focus on the FastAPI backend. |
+| [ML blog](https://egigj-dev.github.io/my-blog/) ([source](https://github.com/egigj-dev/my-blog)) | Interactive articles on deep learning fundamentals. |
+| [credit-risk-platform](https://github.com/egigj-dev/credit-risk-platform) | Default-probability and early-warning scoring, next-best offers, an API, and a dashboard. A deterministic demo runs on generated clients with no database. |
 
 ### How I approach the work
 
@@ -44,3 +45,15 @@ I care about good problem definitions, sensible metrics, understanding failure m
 <sub>Less of a scoreboard, more of a working notebook.</sub>
 
 </div>
+
+
+### Portfolio content maintenance
+
+The site links to public repositories and to the published blog at <https://egigj-dev.github.io/my-blog/>. Check that a repository is public before linking it; `notebooks` is private, so it isn't featured.
+
+Before adding more detailed claims, verify:
+
+- **TiranaTips:** supported languages and evaluation evidence. The default branch lags `mvp-hardening`.
+- **real-estate:** evaluation dataset, split, baseline, and measured prediction errors.
+- **credit-risk-platform:** model metrics. The demo uses generated clients, so it says nothing about model quality.
+- **All projects:** personal contribution and project status, before adding role or maturity labels.
