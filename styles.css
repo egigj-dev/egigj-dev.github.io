@@ -153,6 +153,7 @@ nav a:focus-visible, .brand:focus-visible { color: var(--accent); }
 }
 .section-note { font: 12px/1.7 var(--mono); color: var(--muted); max-width: 29ch; }
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.project--featured { grid-column: 1 / -1; }
 .project {
   background: var(--panel);
   border: 1px solid var(--border);
@@ -188,6 +189,9 @@ nav a:focus-visible, .brand:focus-visible { color: var(--accent); }
 .project-link:focus-visible { outline: none; }
 .project-link:focus-visible::after { outline: 3px solid var(--accent); outline-offset: -5px; }
 .project a:not(.project-link) { position: relative; z-index: 3; }
+.project-secondary { align-self: flex-start; min-height: 44px; padding-block: 10px; color: var(--muted); font: 12px/1.6 var(--mono); text-underline-offset: 4px; }
+.project-link:has(+ .project-secondary) { margin-bottom: -8px; }
+.project-secondary:hover, .project-secondary:focus-visible { color: var(--accent); }
 
 /* Approach, topic index, and colophon */
 .method-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }

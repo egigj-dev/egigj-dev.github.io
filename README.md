@@ -6,7 +6,7 @@
 
 *Tirana, Albania · Building things, testing assumptions, writing down what I learn.*
 
-[Explore my field notebook](https://egigj-dev.github.io) · [Repositories](https://github.com/egigj-dev?tab=repositories)
+[Explore my field notebook](https://egigj-dev.github.io) · [ML blog](https://egigj-dev.github.io/my-blog/) · [Repositories](https://github.com/egigj-dev?tab=repositories)
 
 </div>
 
@@ -22,10 +22,11 @@ My interests move between **NLP and retrieval**, **recommendation and predictive
 
 | Project | What it's about |
 | :-- | :-- |
-| [TiranaTips](https://github.com/egigj-dev/TiranaTips) | A multilingual guide to Tirana that explores retrieval-augmented generation (RAG) for city information. |
-| [real-estate](https://github.com/egigj-dev/real-estate) | A property-listing app for Tirana, using XGBoost price estimates and comparable listings to help put asking prices in context. A FastAPI backend serves the application. |
-| [my-blog](https://github.com/egigj-dev/my-blog) | Writing that unpacks deep learning fundamentals, using explanations to make the ideas behind models easier to understand. |
-| [notebooks](https://github.com/egigj-dev/notebooks) | Jupyter notebooks for exploring data and testing ideas through small experiments, analyses, and prototypes. |
+| [albanian-banking-assistant](https://github.com/egigj-dev/albanian-banking-assistant) | An Albanian-language assistant for banking regulations and bank rates. Rates come from structured tables, and every generated sentence is checked against its sources. |
+| [TiranaTips](https://github.com/egigj-dev/TiranaTips) | A multilingual guide to Tirana: hybrid search over Qdrant, cross-encoder reranking, and streamed answers from a FastAPI app. Built with collaborators. |
+| [real-estate](https://github.com/egigj-dev/real-estate) | A property-listing app for Tirana, using XGBoost price estimates and comparable listings to help put asking prices in context. Built with collaborators; my commits focus on the FastAPI backend. |
+| [ML blog](https://egigj-dev.github.io/my-blog/) ([source](https://github.com/egigj-dev/my-blog)) | Interactive articles on deep learning fundamentals. |
+| [credit-risk-platform](https://github.com/egigj-dev/credit-risk-platform) | Default-probability and early-warning scoring, next-best offers, an API, and a dashboard. A deterministic demo runs on generated clients with no database. |
 
 ### How I approach the work
 
@@ -48,14 +49,11 @@ I care about good problem definitions, sensible metrics, understanding failure m
 
 ### Portfolio content maintenance
 
-The portfolio links to project source repositories. The `my-blog` card is the ML-writing repository; a separate published blog URL has not been verified.
-
-The real-estate summary is supported by its [repository README](https://github.com/egigj-dev/real-estate#readme), which documents the Tirana listing app, XGBoost, FastAPI, price estimates, and comparable listings. The other summaries retain the scope described in this portfolio and README; their external repositories could not be retrieved during this content review.
+The site links to public repositories and to the published blog at <https://egigj-dev.github.io/my-blog/>. Check that a repository is public before linking it; `notebooks` is private, so it isn't featured.
 
 Before adding more detailed claims, verify:
 
-- **TiranaTips:** implemented retrieval workflow, supported languages, and evaluation evidence.
-- **real-estate:** evaluation dataset, split, baseline, and measured prediction errors before publishing performance claims.
-- **my-blog:** published reading URL and article titles or permalinks.
-- **notebooks:** specific notebook paths, questions explored, methods, and documented findings.
-- **All projects:** personal contribution and collaborators, plus a documented project status before adding role or maturity labels.
+- **TiranaTips:** supported languages and evaluation evidence. The default branch lags `mvp-hardening`.
+- **real-estate:** evaluation dataset, split, baseline, and measured prediction errors.
+- **credit-risk-platform:** model metrics. The demo uses generated clients, so it says nothing about model quality.
+- **All projects:** personal contribution and project status, before adding role or maturity labels.
